@@ -1,0 +1,90 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(0, 0, 0);
+}
+
+.container {
+  width: 85%;
+  /* border: 1px solid black; */
+  margin: 0 auto;
+  display: flex;
+  gap: 4.85em;
+  flex-wrap: wrap;
+  /* align-content: ; */
+  /* justify-content: space-between; */
+}
+
+.movie {
+  /* border: 1px solid blue; */
+  width: 300px;
+}
+
+.movie:hover {
+  box-shadow: rgba(47, 0, 255, 0.253) 0px 20px 30px -10px;
+}
+
+.movie h4 {
+  font-size: 1.5em;
+  color: white;
+}
+
+.movie p {
+  font-size: 1.5em;
+  color: white;
+}
+
+.movie img {
+  border-radius: 5px;
+}
+
+.navbar {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+}
+
+.navbtns {
+  display: flex;
+  width: 33%;
+  justify-content: space-between;
+}
+.navbar-input {
+  height: 35px;
+  width: 66%;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  /* margin-right: 45px; */
+  border-radius: 7px;
+  padding-left: 1%;
+  border: 2px solid rgb(255, 255, 255);
+  font-size: 1.5em;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+  /* font-size: 1.5em; */
+  /* text-align: center; */
+}
+
+.navbar button {
+  width: 24%;
+  font-size: 1.5em;
+  border-radius: 7px;
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    justify-content: space-around;
+  }
+}
