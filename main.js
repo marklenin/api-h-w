@@ -55,7 +55,7 @@ function look() {
           <img
             src="${a.Poster}"
             alt=""
-            width="200"
+            width="228"
             height="290"
           />
           <h4>${a.Title}</h4>
