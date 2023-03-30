@@ -22,8 +22,8 @@ api
         <img
           src="${elem.Poster}"
           alt=""
-          width="300"
-          height="390"
+          width="228"
+          height="290"
         />
         <h4>${elem.Title}</h4>
         <p>${elem.Year}</p>
@@ -55,8 +55,8 @@ function look() {
           <img
             src="${a.Poster}"
             alt=""
-            width="300"
-            height="390"
+            width="200"
+            height="290"
           />
           <h4>${a.Title}</h4>
           <p>${a.Year}</p>
